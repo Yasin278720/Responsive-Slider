@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Responsive Slider</title>
+  </head>
+  <body>
+
+    <style>
+        .carousel-item {
+            height: 50rem;
+            background: #777;
+            color: aliceblue;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 100px;
+            
+        }
+        .container h1 {
+            font-size: 50px;
+            color: aqua;
+            font-family: Verdana, sans-serif;
+        }
+        .container span {
+            color: rgb(255, 107, 62);
+        }
+        .container p {
+            font-size: 25px;
+            font-family: Verdana, sans-serif;
+        }
+        .btn:hover {
+            background-color: black;
+            transition: 0.5s;
+        }
+    </style>
+
+         <div id="myCarousel" class="carousel slide"
+          data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel"
+                 data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" 
+                data-slide-to="1"></li>
+                <li data-target="#myCarousel" 
+                data-slide-to="2"></li>
+            </ol>
+           
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" style="background-image:url(./slide-1.jpg)">
+                    <div class="container">
+                        <h1>Yasin Chowdhury <span>Apurbo</span> </h1>
+                        <p>
+                            My name is Yasin Chowdhury Apurbo. I am a professional front-end web developer and WordPress Designer. I have good knowledge about HTML5, CSS3, Bootstrap, Js.
+
+                        </p>
+
+                        <a class="btn btn-lg btn-primary" href="https://www.facebook.com/apurbo.jas.7/">
+
+                            Sign Up Now
+                        <a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url(./slide-4.jpg)">
+                    <div class="container">
+                        <h1>Yasin Chowdhury <span>Apurbo</span></h1>
+                        <p>
+                            I am a fast learner. Currently I a m learning ReactJs for font-end and NodeJs for back-end web development. I am working with Web Design since 2 years.
+
+                        </p>
+
+                        <a class="btn btn-lg btn-primary"   href="https://www.facebook.com/apurbo.jas.7/">
+
+                            Sign Up Now
+                        <a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image:url(./slide-2.jpg)">
+                    <div class="container">
+                        <h1>Yasin Chowdhury <span>Apurbo</span></h1>
+                        <p>
+                            I have completed 3 projects. 2 of them is online e-commerce store and one of them is portfolio website. Also I completed many small project at home.
+                        </p>
+
+                        <a class="btn btn-lg btn-primary"  href="https://www.facebook.com/apurbo.jas.7/">
+
+                            Sign Up Now
+                        <a>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" 
+            class="carousel-control-prev" role="button"
+             data-slide="prev">
+            <span class="sr-only">previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+
+            </span>
+               
+            </a>
+
+            <a href="#myCarousel" 
+            class="carousel-control-next" role="button"
+             data-slide="next">
+            <span class="sr-only">previous</span>
+            <span class="carousel-control-next-icon" aria-hidden="true">
+
+            </span>
+               
+            </a>
+         </div>    
+            
+           
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
